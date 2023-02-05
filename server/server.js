@@ -1,13 +1,14 @@
 require("dotenv").config();
 
+const fs = require("fs");
 const express = require("express");
 const app = express();
-const path = require("path");
 const cors = require("cors");
 const corsOptions = require("./config/corsOptions");
 const connectDB = require("./config/dbConn");
 const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
+const https = require("https");
 
 // Environment Variables
 const PORT = process.env.PORT;
@@ -29,7 +30,6 @@ app.use(express.json());
 app.use(cookieParser());
 
 // Routes
-app.use("/api/", require("./routes/root"));
 app.use("/api/auth", require("./routes/authRoutes.js"));
 app.use("/api/users", require("./routes/userRoutes.js"));
 app.use("/api/notes", require("./routes/noteRoute.js"));
@@ -43,6 +43,11 @@ mongoose.connection.once("open", (err) => {
   );
 });
 
+// send message for default URL
+app.get("/", (req, res) => {
+  res.send("Hello World with Express");
+});
+
 mongoose.connection.on("error", (err) => {
   console.log("\nERROR:", err);
   logEvents(
@@ -50,3 +55,16 @@ mongoose.connection.on("error", (err) => {
     "mongoErrLog.log"
   );
 });
+
+// TLS CONFIG
+// https
+//   .createServer(
+//     {
+//       key: fs.readFileSync("key.pem"),
+//       cert: fs.readFileSync("cert.pem"),
+//     },
+//     app
+//   )
+//   .listen(PORT, () => {
+//     console.log(`\nServer running on port ${PORT} on ${ENVIRONMENT} mode`);
+//   });

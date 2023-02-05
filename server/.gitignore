@@ -6,3 +6,7 @@
 
 # logs
 logs
+
+# TLS certificates
+cert.pem
+key.pem

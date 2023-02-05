@@ -78,12 +78,12 @@
 body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
-  background-color: var(--BGCOLOR);
   color: var(--COLOR);
-  background-image: url("./img/background.jpg");
   background-size: cover;
   background-position: top right;
-  background-blend-mode: multiply;
+  background-image: url("./img/background.jpg");
+  background-color: var(--BGCOLOR);
+  background-blend-mode: overlay;
 }
 
 input,
