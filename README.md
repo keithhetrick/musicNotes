@@ -1,21 +1,10 @@
-# musicNotes
+# 2. musicNotes
 
 A simple portal for Garnish employees to keep track of their current tasks and projects. This is a full-stack application built with React, Redux, Node.js, Express, and MongoDB. The application is currently hosted on AWS EC2, and due to permissions, the full application is only accessible to Garnish employees - only the login page is publicly accessible.
 
-## [Demo](http://3.141.199.221/)
+## [musicNotes](http://3.141.199.221/)
 
-<img width="960" alt="Screen Shot 2023-02-04 at 10 57 27 PM" src="https://user-images.githubusercontent.com/104343338/216802466-3b711877-76b6-457a-bcf2-57699e3e6e20.png">
-
-<img width="959" alt="Screen Shot 2023-02-04 at 10 58 24 PM" src="https://user-images.githubusercontent.com/104343338/216802476-814dabb0-c5a7-48fe-ab2f-71dd9d29aa6a.png">
-
-<img width="379" alt="Screen Shot 2023-02-04 at 10 59 28 PM" src="https://user-images.githubusercontent.com/104343338/216802585-4b9c7003-3399-49b8-bdcc-c258c046e947.png"><img width="381" alt="Screen Shot 2023-02-04 at 11 07 50 PM" src="https://user-images.githubusercontent.com/104343338/216802816-21ab8954-5109-49b3-8318-ae1967153b3b.png">
-
-<img width="960" alt="Screen Shot 2023-02-04 at 11 04 46 PM" src="https://user-images.githubusercontent.com/104343338/216802737-4b2c7976-3c03-4ea5-9ae5-0314d998f8c1.png">
-
-<img width="378" alt="Screen Shot 2023-02-04 at 11 10 36 PM" src="https://user-images.githubusercontent.com/104343338/216802891-eff77776-8e59-4677-8196-247ca15015f3.png"><img width="378" alt="Screen Shot 2023-02-04 at 11 11 20 PM" src="https://user-images.githubusercontent.com/104343338/216802901-1f271377-d22d-413e-9863-2c5e3c876a37.png">
-
-
-## Built with:
+## musicNotes built with:
 
 - [React](https://reactjs.org/)
 - [Redux](https://redux.js.org/)
@@ -35,6 +24,18 @@ A simple portal for Garnish employees to keep track of their current tasks and p
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [UUID](https://www.npmjs.com/package/uuid)
 - [CORS](https://www.npmjs.com/package/cors)
+
+## [musicNotes Github Repo](https://github.com/keithhetrick/musicNotes)
+
+<img width="960" alt="Screen Shot 2023-02-04 at 10 57 27 PM" src="https://user-images.githubusercontent.com/104343338/216802466-3b711877-76b6-457a-bcf2-57699e3e6e20.png">
+
+<img width="959" alt="Screen Shot 2023-02-04 at 10 58 24 PM" src="https://user-images.githubusercontent.com/104343338/216802476-814dabb0-c5a7-48fe-ab2f-71dd9d29aa6a.png">
+
+<img width="379" alt="Screen Shot 2023-02-04 at 10 59 28 PM" src="https://user-images.githubusercontent.com/104343338/216802585-4b9c7003-3399-49b8-bdcc-c258c046e947.png"><img width="381" alt="Screen Shot 2023-02-04 at 11 07 50 PM" src="https://user-images.githubusercontent.com/104343338/216802816-21ab8954-5109-49b3-8318-ae1967153b3b.png">
+
+<img width="960" alt="Screen Shot 2023-02-04 at 11 04 46 PM" src="https://user-images.githubusercontent.com/104343338/216802737-4b2c7976-3c03-4ea5-9ae5-0314d998f8c1.png">
+
+<img width="378" alt="Screen Shot 2023-02-04 at 11 10 36 PM" src="https://user-images.githubusercontent.com/104343338/216802891-eff77776-8e59-4677-8196-247ca15015f3.png"><img width="378" alt="Screen Shot 2023-02-04 at 11 11 20 PM" src="https://user-images.githubusercontent.com/104343338/216802901-1f271377-d22d-413e-9863-2c5e3c876a37.png">
 
 ## Installation
 

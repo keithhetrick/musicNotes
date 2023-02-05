@@ -1,6 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap")  */
 
 * {
   margin: 0;
@@ -12,10 +10,7 @@
 
 :root {
   /* COLORS */
-  /* --BGCOLOR: #0f172a; */
   --BGCOLOR: rgba(15, 23, 42, 0.9);
-  /* --BGCOLOR: rgb(40,40,40) */
-  /* --BGCOLOR: #aa1f23 */
   --BORDER-COLOR: #fff;
   --COLOR: #fff;
   --ERROR: firebrick;
@@ -81,17 +76,14 @@
 /* || GENERAL STYLES */
 
 body {
-  /* font-family: "Nunito", sans-serif; */
   font-family: "Roboto", sans-serif;
-  /* font-family: "Roboto Flex", sans-serif; */
   min-height: 100vh;
   background-color: var(--BGCOLOR);
   color: var(--COLOR);
   background-image: url("./img/background.jpg");
   background-size: cover;
   background-position: top right;
-  /* background-blend-mode: multiply; */
-  background-blend-mode: overlay;
+  background-blend-mode: multiply;
 }
 
 input,
@@ -137,7 +129,6 @@ a:focus-visible {
 
 .public__main {
   display: flex;
-  /* flex-direction: column; */
   flex-direction: initial;
   flex-wrap: wrap;
   gap: 1rem;
@@ -145,8 +136,6 @@ a:focus-visible {
 
 .public__header__div {
   display: flex;
-  /* width: 100vw; */
-  /* flex-direction: column; */
   gap: 1rem;
 }
 
@@ -197,7 +186,6 @@ a:focus-visible {
   top: 0;
   z-index: 1;
   background-color: var(--BGCOLOR);
-  /* background-color: rgb(40, 40, 40); */
   padding: 0 0.5em;
   border-bottom: 1px solid var(--BORDER-COLOR);
 }
@@ -330,7 +318,6 @@ tr {
 
 .note__status {
   font-weight: bold;
-  /* font-size: 1.5rem; */
 }
 
 .note__status--open {
@@ -472,10 +459,6 @@ tr {
   .dash-header__title {
     font-size: 1.1rem;
   }
-
-  /* p {
-    font-size: 0.8rem;
-  } */
 }
 
 @media screen and (min-width: 768px) {
@@ -489,10 +472,6 @@ tr {
 
   .dash-container {
     padding: 1em;
-  }
-
-  .table {
-    /* font-size: 1.5rem; */
   }
 
   .table--notes {
