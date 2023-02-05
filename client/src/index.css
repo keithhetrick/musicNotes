@@ -83,7 +83,7 @@ body {
   background-position: top right;
   background-image: url("./img/background.jpg");
   background-color: var(--BGCOLOR);
-  background-blend-mode: overlay;
+  background-blend-mode: multiply;
 }
 
 input,
