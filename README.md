@@ -40,7 +40,7 @@ npm install
 3. Create a .env file in the root directory and add the following:
 
 ```sh
-PORT = 3500
+PORT = 8000
 DATABASE_URI = <your_mongoDB_uri>
 NODE_ENV = <development> || <production>
 ACCESS_TOKEN_SECRET = <your_access_token_secret>
