@@ -64,7 +64,6 @@ const Public = () => {
       </main>
       <footer>
         <Link to="/login">Employee Login</Link>
-        {/* <Link to="/login"> </Link> */}
       </footer>
     </section>
   );

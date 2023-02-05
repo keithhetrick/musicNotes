@@ -1,6 +1,6 @@
 # musicNotes
 
-A simple portal for employees to keep track of their current tasks and projects.
+A simple portal for Garnish employees to keep track of their current tasks and projects.
 
 ## Built with:
 

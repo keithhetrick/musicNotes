@@ -18,7 +18,7 @@ import useTitle from "./hooks/useTitle";
 // import ReadNote from "./features/notes/ReadNote";
 
 function App() {
-  useTitle("Dan D. Repairs");
+  useTitle("musicNotes - Employee Portal");
 
   return (
     <Routes>
