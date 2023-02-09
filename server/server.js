@@ -9,6 +9,7 @@ const connectDB = require("./config/dbConn");
 const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 const https = require("https");
+const helmet = require("helmet");
 
 // Environment Variables
 const PORT = process.env.PORT;
@@ -17,6 +18,7 @@ const ENVIRONMENT = process.env.NODE_ENV;
 connectDB();
 
 // Middleware
+app.use(helmet());
 const { logger, logEvents } = require("./middleware/logger");
 const { errorHandler } = require("./middleware/errorHandler");
 
